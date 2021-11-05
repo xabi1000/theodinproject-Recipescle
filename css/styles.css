@@ -1,0 +1,52 @@
+img {
+  max-width: 100%;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-color: #05303d;
+  color: rgb(241, 111, 191);
+  margin: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: brown;
+    text-transform: uppercase;
+}
+
+.pumpkin {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+  height: 80vh;
+}
+
+.pumpkin img{
+  width: 300px;
+}
+
+.pumpkin p{
+ font-size: 1.3em;
+ width: 50%;
+ line-height: 2em;
+}
+
+.link {
+    background: #000;
+    height: 51px;
+    width: 100px;
+    text-align: center;
+    border-radius: 7px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    
+}
